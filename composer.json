@@ -1,0 +1,19 @@
+{
+    "name": "devcomp/api",
+    "authors": [
+        {
+            "name": "Dmitry",
+            "email": "workinweb2014@ya.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+        "Core\\": "Core",
+         "App\\": "App"
+        }
+    },
+    "require": {
+        "php": "8.*"
+    }
+
+}
