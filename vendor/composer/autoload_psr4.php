@@ -6,6 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'devcompru\\http\\' => array($vendorDir . '/devcompru/http/src'),
+    'Devcompru\\' => array($vendorDir . '/devcompru/router/src'),
     'Core\\' => array($baseDir . '/Core'),
     'App\\' => array($baseDir . '/App'),
 );

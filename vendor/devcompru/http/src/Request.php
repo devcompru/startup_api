@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace devcompru\http;
+namespace Devcompru\Http;
 
 
 use function filter_var;

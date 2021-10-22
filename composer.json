@@ -6,6 +6,7 @@
             "email": "workinweb2014@ya.ru"
         }
     ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
         "Core\\": "Core",
@@ -13,7 +14,9 @@
         }
     },
     "require": {
-        "php": "8.*"
+        "php": "8.*",
+        "devcompru/router": "1.0.0.x-dev",
+        "devcompru/http": ">=0.1.0.0-dev"
     }
 
 }

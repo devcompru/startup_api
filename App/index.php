@@ -1,3 +1,4 @@
 <?php
 declare(strict_types=1);
-echo "test";
+
+require_once "../Core/bootstrap.php";

@@ -4,17 +4,101 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b16ab9fe305077ff6882fa34b3ba9bc5",
-    "packages": [],
+    "content-hash": "45c4ef514986063ac7a0958fc672c22e",
+    "packages": [
+        {
+            "name": "devcompru/http",
+            "version": "0.1.0.0-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/devcompru/http.git",
+                "reference": "291dfaee24f56cd58cdfad4e3d2c3dad71f0bf8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devcompru/http/zipball/291dfaee24f56cd58cdfad4e3d2c3dad71f0bf8e",
+                "reference": "291dfaee24f56cd58cdfad4e3d2c3dad71f0bf8e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "8.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "devcompru\\http\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitriy Evseev",
+                    "email": "dev@devcomp.ru"
+                }
+            ],
+            "description": "Basic http",
+            "support": {
+                "issues": "https://github.com/devcompru/http/issues",
+                "source": "https://github.com/devcompru/http/tree/0.1.0.0"
+            },
+            "time": "2021-10-22T12:10:23+00:00"
+        },
+        {
+            "name": "devcompru/router",
+            "version": "1.0.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/devcompru/router.git",
+                "reference": "3736156a44655664ebc34fefe9923180eb6dea38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devcompru/router/zipball/3736156a44655664ebc34fefe9923180eb6dea38",
+                "reference": "3736156a44655664ebc34fefe9923180eb6dea38",
+                "shasum": ""
+            },
+            "require": {
+                "php": "8.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Devcompru\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitriy Evseev",
+                    "email": "dev@devcomp.ru"
+                }
+            ],
+            "description": "Basic router",
+            "support": {
+                "issues": "https://github.com/devcompru/router/issues",
+                "source": "https://github.com/devcompru/router/tree/1.0.0"
+            },
+            "time": "2021-10-21T10:27:48+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "devcompru/router": 20,
+        "devcompru/http": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "8.*"
     },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.1.0"
 }
